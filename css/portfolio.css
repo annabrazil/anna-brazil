@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Corbel; 
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../logo.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.title{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title p{
+	color: #fff;
+	font-size: 400%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.title h5{
+	color: #fff;
+	font-size: 100%;
+	margin-left: 25px;
+	opacity: 44%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.about p{
+	color: rgb(43, 202, 189);
+	font-size: 125%;
+	padding-top: 35%;
+	padding-right: 4%;
+	padding-left: 75%;
+	padding-top: 20%;
+	text-align: justify;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px rgb(1, 30, 28);
+
+
+}
+
+img#img1 {
+    margin-top: 10%;
+    padding-left: 10%;
+    width: 25%;
+    height: 40%;
+    max-width:40em;
+    opacity: 0.8
+}
+
+img#img2 {
+    margin-top: -30%;
+    margin-left: 1em;
+    width: 28%;
+    height: 40%;
+    max-width:40em;
+    opacity: 0.8
+}
+
+img#img3 {
+    margin-top: 1em;
+    margin-left: 10%;
+    padding: .313em;
+    width: 30%;
+    height: 35%;
+    max-width:40em;
+}
+img#img4 {
+    margin-top: 1em;
+    padding-left: 2%;
+    width: 22%;
+    height: 36%;
+    max-width:40em;
+    opacity: 0.8
+
+}
+
+.namec p{
+	color: #fff;
+	font-size: 300%;
+	position: absolute;
+	top: 15%;
+	left: 1%;
+	font-weight: bold;
+}
+
+img#fbpic {
+    margin-top: -2.5em;
+    padding-left: 4%;
+    width: 5%;
+    height: 9%;
+    max-width:40em;
+}
+
+p.fb a{
+	text-decoration: none;
+	color: #fff;
+}
+
+p.fb {
+	padding-top: 15%;
+	padding-left: 10%;
+}
+
+p.twitter a{
+	text-decoration: none;
+	color: #fff;
+}
+
+p.twitter {
+	padding-top: 3%;
+	padding-left: 10.2%;
+}
+
+img#tweetpic {
+    margin-top: -2.3em;
+    padding-left: 4%;
+    width: 5%;
+    height: 9%;
+    max-width:40em;
+}
+p.ig a{
+	text-decoration: none;
+	color: #fff;
+}
+
+p.ig {
+	padding-top: 3%;
+	padding-left: 10%;
+}
+
+img#igpic {
+    margin-top: -2.3em;
+    padding-left: 4%;
+    width: 5%;
+    height: 9%;
+    max-width:40em;
+
+}
+
